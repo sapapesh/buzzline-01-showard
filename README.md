@@ -1,11 +1,11 @@
-# buzzline-01-case
+# buzzline-01-showard
 
 ![Python 3.11](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 
 This project introduces streaming data. 
-The Python language includes generators - we'll use this feature to generate some streaming buzzline messages. 
+The Python language includes generators - we'll use this feature to generate some streaming buzzline messages regarding participating in a race. 
 As the code runs, it will continuously update the log file. 
-We'll use a consumer to monitor the log file and alert us when a special message is detected. 
+We'll use a consumer to monitor the log file and alert us when a special message is detected. The special message that we will watch for is "I just crawled in a decathlon! It was tiring." 
 
 ## Task 1. Set Up Your Machine & Sign up for GitHub
 
@@ -42,13 +42,13 @@ Windows PowerShell:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.basic_producer_case
+py -m producers.basic_producer_sahoward
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.basic_producer_case
+python3 -m producers.basic_producer_sahoward
 ```
 
 ## Task 4. Monitor an Active Log File (Terminal 2)
@@ -62,13 +62,13 @@ Use the commands below to activate .venv, and run the file as a module.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.basic_consumer_case
+py -m consumers.basic_consumer_sahoward
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.basic_consumer_case
+python3 -m consumers.basic_consumer_sahoward
 ```
 
 ## Save Space
